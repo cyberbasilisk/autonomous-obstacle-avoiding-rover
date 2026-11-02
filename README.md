@@ -34,7 +34,7 @@ ros2 run obstacle_avoider obstacle_avoider_node
 
 ### Architecture
 
-<img width="1000" height="1000" alt="Image" src="https://github.com/user-attachments/assets/f1dc0202-cede-4a8c-b23e-5e7b6d7e7a55" />
+<img width="1000" height="500" alt="Image" src="https://github.com/user-attachments/assets/f1dc0202-cede-4a8c-b23e-5e7b6d7e7a55" />
 
 
 The node ever only talks through these two topics. It has no direct connection to the sensors or motors, which is a core benefit of ROS-2's pub/sub model. Each piece can be tested, replaced, or reused independently.

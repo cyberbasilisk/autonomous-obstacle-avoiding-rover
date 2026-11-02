@@ -3,9 +3,9 @@
 A reactive obstacle-avoidance system built on a custom differential-drive robot, simulated in Gazebo Harmonic and controlled 
 via ROS-2 Jazzy. 
 
-
-<img width="640" height="533" alt="Image" src="https://github.com/user-attachments/assets/1b8d7967-ee59-4e82-ba97-aa49c8030d4b" />
-
+<p align="center">
+  <img width="640" height="533" alt="Image" src="https://github.com/user-attachments/assets/1b8d7967-ee59-4e82-ba97-aa49c8030d4b" />
+<p/>
 
 ### What It Does
 
@@ -34,7 +34,7 @@ ros2 run obstacle_avoider obstacle_avoider_node
 
 ### Architecture
 
-<img width="2000" height="1221" alt="Image" src="https://github.com/user-attachments/assets/f1dc0202-cede-4a8c-b23e-5e7b6d7e7a55" />
+<img width="1000" height="1000" alt="Image" src="https://github.com/user-attachments/assets/f1dc0202-cede-4a8c-b23e-5e7b6d7e7a55" />
 
 
 The node ever only talks through these two topics. It has no direct connection to the sensors or motors, which is a core benefit of ROS-2's pub/sub model. Each piece can be tested, replaced, or reused independently.
